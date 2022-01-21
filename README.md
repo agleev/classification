@@ -17,5 +17,6 @@
 5. Запустил алгоритм `XGBClassifier` на дефолтных настройках, чтобы было с чем сравнить.
 6. Задал функцию обучения, с перекрестной проверкой и автоматическим поиском параметров. Настроил ноутбук так, чтобы можно было просто запустить и все.
 7. Алгоритм сначала подобрал значение `n_estimators` и `learning_rate` потом снова перепроверил, но уже на соседних значениях. И так по остальным гиперпараметрам: `max_depth`, `min_child_weight`, `subsample`, `colsample_bytree`, `gamma`. С каджды последующим шагом они автоматически добавлялись в классификатор.
+8. Логичстическая функция потерь нашего классификатора уменьшилась с 0.516 до 0.5.
 
-[Diabetes Health Indicators Dataset](https://www.kaggle.com/agleev/xgboost-with-parameter-tuning) - этот проект на kaggle.
+[Diabetes Health Indicators Dataset](https://www.kaggle.com/agleev/xgboost-with-parameter-tuning) - мой проект на kaggle.
